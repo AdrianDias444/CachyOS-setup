@@ -225,3 +225,6 @@ echo ""
 echo -n "Reiniciar agora? [s/N]: "
 read -r rb
 [[ "$rb" =~ ^[Ss] ]] && { echo "Reiniciando..."; sleep 3; sudo reboot; }
+
+
+sh install.sh

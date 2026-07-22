@@ -1,18 +1,31 @@
-sudo pacman -Syu
-sudo pacman -S neovim
-sudo pacman -S yay
-sudo pacman -S flatpack
-sudo pacman -S visual-studio-code-bin
-sudo pacman -S blender
-sudo pacman -S spotify-launcher
-sudo pacman -S lutris
-sudo pacman -S vesktop
-yay -S fresh-editor
-yay -S pokemmo
-sudo pacman -S lutris
-sudo pacman -S brave
-sudo pacman -S curseforge
-sudo pacman -S freecad
+#!/bin/bash
+
+sudo pacman -Syu --noconfirm
+sudo pacman -S --needed --noconfirm neovim
+sudo pacman -S --needed --noconfirm flatpak
+sudo pacman -S --needed --noconfirm blender
+sudo pacman -S --needed --noconfirm spotify-launcher
+sudo pacman -S --needed --noconfirm lutris
+sudo pacman -S --needed --noconfirm freecad
 
 
+if ! command -v yay &> /dev/null; then
+    sudo pacman -S --needed --noconfirm git base-devel
+    git clone https://aur.archlinux.org/yay.git
+    cd yay
+    makepkg -si --noconfirm
+    cd ~
+else
+    echo "yay já está instalado"
+fi
 
+
+yay -S --needed --noconfirm visual-studio-code-bin
+yay -S --needed --noconfirm vesktop
+yay -S --needed --noconfirm brave-bin
+yay -S --needed --noconfirm fresh-editor
+yay -S --needed --noconfirm pokemmo-bin
+
+
+bash <(curl -sSL https://raw.githubusercontent.com/SpotX-Official/SpotX-Bash/main/spotx.sh)
+sh neovim.sh
