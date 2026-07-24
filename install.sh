@@ -7,7 +7,7 @@ sudo pacman -S --needed --noconfirm blender
 sudo pacman -S --needed --noconfirm spotify-launcher
 sudo pacman -S --needed --noconfirm lutris
 sudo pacman -S --needed --noconfirm freecad
-
+sudo pacman -S --needed --noconfirm obs-studio
 
 if ! command -v yay &> /dev/null; then
     sudo pacman -S --needed --noconfirm git base-devel
