@@ -8,6 +8,7 @@ sudo pacman -S --needed --noconfirm spotify-launcher
 sudo pacman -S --needed --noconfirm lutris
 sudo pacman -S --needed --noconfirm freecad
 sudo pacman -S --needed --noconfirm obs-studio
+sudo pacman -S --needed --noconfirm zig
 
 if ! command -v yay &> /dev/null; then
     sudo pacman -S --needed --noconfirm git base-devel
@@ -25,6 +26,12 @@ yay -S --needed --noconfirm vesktop
 yay -S --needed --noconfirm brave-bin
 yay -S --needed --noconfirm fresh-editor
 yay -S --needed --noconfirm pokemmo-bin
+
+
+flatpak update
+flatpak install flathub org.vinegarhq.Sober
+
+
 
 
 bash <(curl -sSL https://raw.githubusercontent.com/SpotX-Official/SpotX-Bash/main/spotx.sh)
