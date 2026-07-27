@@ -1,6 +1,6 @@
 # Dotfiles Installer
 
-> ⚠️ **Under development** — This script was designed for my personal setup.
+> ⚠️ **Under development and not fully tested** — This script was designed for my personal setup.
 
 ## Requirements
 
