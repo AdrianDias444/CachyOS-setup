@@ -9,6 +9,7 @@ sudo pacman -S --needed --noconfirm lutris
 sudo pacman -S --needed --noconfirm freecad
 sudo pacman -S --needed --noconfirm obs-studio
 sudo pacman -S --needed --noconfirm zig
+sudo pacman -S --needed --noconfirm kicad
 
 if ! command -v yay &> /dev/null; then
     sudo pacman -S --needed --noconfirm git base-devel
