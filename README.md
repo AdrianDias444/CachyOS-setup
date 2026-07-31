@@ -45,6 +45,8 @@ Performs the installation of official packages using `pacman`:
 | obs-studio   | Recording/streaming    |
 | zig          | Programming language   |
 | kicad        | PCB design             |
+| texlive      | LaTex package          |
+
 
 Then, it checks if **yay** (AUR helper) is installed.
 
@@ -57,6 +59,8 @@ If available, it installs via `yay`:
 | brave    | Web browser                  |
 | fresh    | IDE made in Rust             |
 | pokemmo  | Online Pokémon game          |
+| manim    | PyLib for maths animations   |
+
 
 Using **flatpak**, it installs:
 
