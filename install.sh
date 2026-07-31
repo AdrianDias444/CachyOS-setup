@@ -10,6 +10,9 @@ sudo pacman -S --needed --noconfirm freecad
 sudo pacman -S --needed --noconfirm obs-studio
 sudo pacman -S --needed --noconfirm zig
 sudo pacman -S --needed --noconfirm kicad
+sudo pacman -S --needed --noconfirm texlive-most
+
+
 
 if ! command -v yay &> /dev/null; then
     sudo pacman -S --needed --noconfirm git base-devel
@@ -27,6 +30,7 @@ yay -S --needed --noconfirm vesktop
 yay -S --needed --noconfirm brave-bin
 yay -S --needed --noconfirm fresh-editor
 yay -S --needed --noconfirm pokemmo-bin
+yay -S --needed --noconfirm manim
 
 
 flatpak update
