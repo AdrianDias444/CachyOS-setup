@@ -11,7 +11,8 @@ sudo pacman -S --needed --noconfirm obs-studio
 sudo pacman -S --needed --noconfirm zig
 sudo pacman -S --needed --noconfirm kicad
 sudo pacman -S --needed --noconfirm texlive-most
-
+sudo pacman -S --needed --noconfirm okular
+sudo pacman -S --needed --noconfirm libreoffice-fresh
 
 
 if ! command -v yay &> /dev/null; then
@@ -38,6 +39,7 @@ yay -S --needed --noconfirm davinci-resolve
 
 flatpak update
 flatpak install flathub org.vinegarhq.Sober
+flatpak install flathub com.overwolf.CurseForge
 
 
 
