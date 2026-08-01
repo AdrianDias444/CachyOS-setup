@@ -31,6 +31,9 @@ yay -S --needed --noconfirm brave-bin
 yay -S --needed --noconfirm fresh-editor
 yay -S --needed --noconfirm pokemmo-bin
 yay -S --needed --noconfirm manim
+yay -S --needed --noconfirm davinci-resolve
+
+
 
 
 flatpak update
