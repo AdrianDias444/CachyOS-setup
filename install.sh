@@ -43,6 +43,7 @@ flatpak update
 flatpak install flathub org.vinegarhq.Sober
 flatpak install flathub com.overwolf.CurseForge
 
+pipx install norminette
 
 
 
