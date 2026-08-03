@@ -48,6 +48,7 @@ Performs the installation of official packages using `pacman`:
 | texlive      | LaTex package          |
 | okular       | Pdf reader             |
 | LibreOffice  | Open Source Office     |
+| Pipx         | Py Application manager |
 
 
 Then, it checks if **yay** (AUR helper) is installed.
@@ -70,6 +71,13 @@ Using **flatpak**, it installs:
 |------------|---------------------|
 | sober      | Roblox for Linux    |
 | curseforge | Minecraft Launcher  |
+
+
+Using **pipx**, it installs:
+| Package     | Description           |
+|-------------|-----------------------|
+| norminette  | 42 code norms checker |
+
 
 After that, it runs **SpotX-Bash**, an ad blocker for the Spotify client installed earlier.
 
