@@ -46,6 +46,9 @@ flatpak install flathub com.overwolf.CurseForge
 pipx install norminette
 
 
-
+bash
+spotify-launcher
 bash <(curl -sSL https://raw.githubusercontent.com/SpotX-Official/SpotX-Bash/main/spotx.sh)
+exit
+
 sh neovim.sh
