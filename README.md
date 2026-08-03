@@ -74,10 +74,10 @@ Using **flatpak**, it installs:
 
 
 Using **pipx**, it installs:
-| Package     | Description           |
-|-------------|-----------------------|
-| norminette  | 42 code norms checker |
-
+| Package        | Description           |
+|----------------|-----------------------|
+| norminette     | 42 code norms checker |
+| c-formatter-42 | 42 file formatter     |
 
 After that, it runs **SpotX-Bash**, an ad blocker for the Spotify client installed earlier.
 
