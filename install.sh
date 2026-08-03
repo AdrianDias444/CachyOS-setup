@@ -44,7 +44,7 @@ flatpak install flathub org.vinegarhq.Sober
 flatpak install flathub com.overwolf.CurseForge
 
 pipx install norminette
-
+pipx install c-formatter-42
 
 bash
 spotify-launcher
