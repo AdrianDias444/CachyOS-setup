@@ -13,6 +13,8 @@ sudo pacman -S --needed --noconfirm kicad
 sudo pacman -S --needed --noconfirm texlive-most
 sudo pacman -S --needed --noconfirm okular
 sudo pacman -S --needed --noconfirm libreoffice-fresh
+sudo pacman -S --needed --noconfirm python-pipx
+
 
 
 if ! command -v yay &> /dev/null; then
