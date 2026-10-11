@@ -14,7 +14,7 @@ sudo pacman -S --needed --noconfirm texlive-most
 sudo pacman -S --needed --noconfirm okular
 sudo pacman -S --needed --noconfirm libreoffice-fresh
 sudo pacman -S --needed --noconfirm python-pipx
-
+sudo pacman -S --needed --noconfirm raylib
 
 
 if ! command -v yay &> /dev/null; then
