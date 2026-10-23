@@ -15,6 +15,7 @@ sudo pacman -S --needed --noconfirm okular
 sudo pacman -S --needed --noconfirm libreoffice-fresh
 sudo pacman -S --needed --noconfirm python-pipx
 sudo pacman -S --needed --noconfirm raylib
+sudo pacman -S --needed --noconfirm shotcut
 
 
 if ! command -v yay &> /dev/null; then
