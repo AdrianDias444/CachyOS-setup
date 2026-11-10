@@ -11,6 +11,7 @@ sudo pacman -S --needed --noconfirm obs-studio
 sudo pacman -S --needed --noconfirm zig
 sudo pacman -S --needed --noconfirm kicad
 sudo pacman -S --needed --noconfirm texlive-most
+sudo pacman -S --needed --noconfirm texlive-langportuguese
 sudo pacman -S --needed --noconfirm okular
 sudo pacman -S --needed --noconfirm libreoffice-fresh
 sudo pacman -S --needed --noconfirm python-pipx
